@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01045D841DD90C61007153EB /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01045D831DD90C61007153EB /* PhotoViewController.swift */; };
+		01045D871DD942DE007153EB /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01045D851DD942DE007153EB /* BaseTransition.swift */; };
+		01045D881DD942DE007153EB /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01045D861DD942DE007153EB /* FadeTransition.swift */; };
+		01B18B901DD97E6F00D2CB33 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B18B8F1DD97E6F00D2CB33 /* Common.swift */; };
 		42167656198E3220008CCBC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42167655198E3220008CCBC3 /* AppDelegate.swift */; };
 		4216765B198E3220008CCBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42167659198E3220008CCBC3 /* Main.storyboard */; };
 		4216765D198E3220008CCBC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4216765C198E3220008CCBC3 /* Images.xcassets */; };
@@ -33,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01045D831DD90C61007153EB /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		01045D851DD942DE007153EB /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		01045D861DD942DE007153EB /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		01B18B8F1DD97E6F00D2CB33 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		42167650198E3220008CCBC3 /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42167654198E3220008CCBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42167655198E3220008CCBC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +78,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B18B8E1DD9710F00D2CB33 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				01B18B8F1DD97E6F00D2CB33 /* Common.swift */,
+				01045D851DD942DE007153EB /* BaseTransition.swift */,
+				01045D861DD942DE007153EB /* FadeTransition.swift */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
 		42167647198E3220008CCBC3 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +109,7 @@
 		42167652198E3220008CCBC3 /* Facebook */ = {
 			isa = PBXGroup;
 			children = (
+				01B18B8E1DD9710F00D2CB33 /* Transitions */,
 				42167674198EAAC6008CCBC3 /* View Controllers */,
 				42167655198E3220008CCBC3 /* AppDelegate.swift */,
 				42167659198E3220008CCBC3 /* Main.storyboard */,
@@ -137,6 +156,7 @@
 				429277A3198F391500E19641 /* CreateStatusViewController.swift */,
 				429277A5198F392800E19641 /* CreatePhotoViewController.swift */,
 				429277A7198F393500E19641 /* CreateCheckinViewController.swift */,
+				01045D831DD90C61007153EB /* PhotoViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -243,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				429277A0198F068E00E19641 /* StoryViewController.swift in Sources */,
+				01045D871DD942DE007153EB /* BaseTransition.swift in Sources */,
 				429277A2198F35B600E19641 /* MessagesViewController.swift in Sources */,
 				42167676198ECA7C008CCBC3 /* NotificationsViewController.swift in Sources */,
 				42167656198E3220008CCBC3 /* AppDelegate.swift in Sources */,
@@ -252,6 +273,9 @@
 				42167678198ECE0E008CCBC3 /* RequestsViewController.swift in Sources */,
 				42167673198EAABC008CCBC3 /* SettingsViewController.swift in Sources */,
 				4216767A198ECE88008CCBC3 /* NewsFeedViewController.swift in Sources */,
+				01045D881DD942DE007153EB /* FadeTransition.swift in Sources */,
+				01B18B901DD97E6F00D2CB33 /* Common.swift in Sources */,
+				01045D841DD90C61007153EB /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
