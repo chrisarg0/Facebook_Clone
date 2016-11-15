@@ -20,19 +20,21 @@ Time spent: 6
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. had trouble implementing the custom transition. didn't really know how to achieve the desired effect.
-2. had trouble revealing feed using convertValue method
+1. custom transitions
+2. convertValue method
 
 ### Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/chrisarg0/Facebook_Clone/blob/master/FacebookCloneHW.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app:
+1. had trouble implementing the desired custom transition
+2. had trouble revealing feed using convertValue method
 
 * Any libraries or borrowed content.
